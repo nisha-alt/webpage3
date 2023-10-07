@@ -107,7 +107,7 @@ header{
 }
 /* About Us Section End */
 /* Service Section Start */
-.services{
+/*.services{
     width:100%;
     height:auto;
     padding:0px 300px;
@@ -135,6 +135,35 @@ header{
 }
 .service-info2{
     padding-left: 50px;
+}*/
+.service{
+    width:100%;
+    height:auto;
+
+}
+/*.service .upper,.service .lower{
+    display: flex;
+}
+.service .image,
+.service .content{
+    width:50%;
+    align-items: center;
+}
+.service .image img{
+    width:660px;
+    height:500px;
+}*/
+.service table tr{
+    display: flex;
+    padding:0px 100px;
+    align-items: center;
+}
+.service table tr td{
+    width:50%;
+}
+.service table tr td img{
+    width:650px;
+    height: 500px;
 }
 /* Service Section End */
 /* Footer Section Start */
@@ -147,3 +176,6 @@ footer{
     padding: 15px 0px;
 }
 /* Footer Section End */
+/* Media Queries Section Start */
+
+/*  Media Queries Section End*/
