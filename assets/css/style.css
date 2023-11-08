@@ -107,41 +107,14 @@ header{
 }
 /* About Us Section End */
 /* Service Section Start */
-/*.services{
-    width:100%;
-    height:auto;
-    padding:0px 300px;
-    
 
-}
-.service1 img,.service2 img{
-    width:408px;
-    height:300px;
-    margin:0px 50px;
-
-}
-.service1,.service2{
-    display:flex;
-    
-    
-
- } 
-.service-info1 h2,.service-info2 h2{
-    margin-top:60px;
-}
-.service-info1 p,.service-info2 p{
-    font-size:16px;
-    text-align:justify;
-}
-.service-info2{
-    padding-left: 50px;
-}*/
 .service{
     width:100%;
     height:auto;
+    padding:0px 350px 0px 350px;
 
 }
-/*.service .upper,.service .lower{
+.service .upper,.service .lower{
     display: flex;
 }
 .service .image,
@@ -150,21 +123,13 @@ header{
     align-items: center;
 }
 .service .image img{
-    width:660px;
-    height:500px;
+    width:400px;
+    height:300px;
+}
+/*.service .upper img{
+    margin-left:250px;
 }*/
-.service table tr{
-    display: flex;
-    padding:0px 100px;
-    align-items: center;
-}
-.service table tr td{
-    width:50%;
-}
-.service table tr td img{
-    width:650px;
-    height: 500px;
-}
+
 /* Service Section End */
 /* Footer Section Start */
 footer{
@@ -177,5 +142,83 @@ footer{
 }
 /* Footer Section End */
 /* Media Queries Section Start */
+@media only screen and (max-width:1499px){
+    .service{
+        padding:0px 200px;
+    }
+    .service .upper,.service .lower{
+        display: block;
+    }
+    .service .image img{
+        width:500px;
+    }
+}
 
-/*  Media Queries Section End*/
+@media  only screen and (max-width:991px) {
+    header{
+        display: block;
+        height:auto;
+        align-items:center;
+        padding:20px 100px;
+        
+    }
+    header h2 {
+        font-size: 14px;
+        margin:5px 0px;
+    }
+    .banner{
+    
+        height:auto;
+        padding:20px 10px;
+    }
+    .banner aside h1{
+        font-size: 40px;
+
+    }
+    .banner aside span{
+        font-size: 52px;
+    }
+   
+   
+    .feature{
+        display:block;
+        width:100%;
+        height:auto;  
+    }
+    .feature p{
+        font-size: 26px;
+        text-align: center;
+        width:230%;
+
+    }
+    .about{
+        padding:20px;
+        width:100%;
+    }
+    .service{
+        padding:0px 80px 0px 80px;
+    }
+    .service .image,.service .content{
+        width:100%;
+    }
+    .service .upper .image img,
+    .service .lower .image img
+    {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .banner {
+        display: block;
+        padding:10px 100px;
+        
+        
+    }
+    .banner main{
+        width:75%;
+    }
+    
+}
+
+/*  Media Queries Section End */
